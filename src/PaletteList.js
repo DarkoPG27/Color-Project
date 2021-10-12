@@ -5,7 +5,7 @@ import { withStyles } from '@mui/styles';
 const styles = {
     root: {
         backgroundColor: "blue",
-        height: "100%",
+        height: "100vh",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center"
@@ -34,7 +34,6 @@ const styles = {
         gridGap: "5%"
         //30% 5% 30% 5% 30%
     }
-
 }
 
 class PaletteList extends Component {
