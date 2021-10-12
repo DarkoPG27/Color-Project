@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withStyles } from '@mui/styles';
-import { CleaningServicesSharp } from '@mui/icons-material';
+
 
 const styles = {
     root: {
