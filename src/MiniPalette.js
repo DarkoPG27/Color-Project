@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withStyles } from '@mui/styles';
 
-
 const styles = {
     root: {
         backgroundColor: "white",
@@ -50,10 +49,7 @@ const styles = {
         position: "relative",
         marginBottom: "-3.5px"
     }
-
-
 }
-
 
 function MiniPalette(props) {
     const { classes, paletteName, emoji, colors } = props;
