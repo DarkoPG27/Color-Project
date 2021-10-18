@@ -1,4 +1,3 @@
-
 import { withStyles } from '@mui/styles';
 import styles from './styles/MiniPaletteStyles';
 
