@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+
 import { withStyles } from '@mui/styles';
 import styles from './styles/MiniPaletteStyles';
 
