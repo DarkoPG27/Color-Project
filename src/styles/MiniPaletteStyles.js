@@ -1,3 +1,5 @@
+import { padding } from "@mui/system";
+
 export default {
     root: {
         backgroundColor: "white",
@@ -6,8 +8,9 @@ export default {
         padding: "0.5rem",
         position: "relative",
         overflow: "hiden",
-        "&:hover": {
-            cursor: "pointer"
+        cursor: "pointer",
+        "&:hover svg": {
+            opacity: 1
         }
     },
 
@@ -45,5 +48,22 @@ export default {
         margin: "0 auto ",
         position: "relative",
         marginBottom: "-3.5px"
+    },
+
+    delete: {
+
+    },
+
+    deleteIcon: {
+        color: "white",
+        backgroundColor: "#eb3d30",
+        width: "20px",
+        height: "20px",
+        position: "absolute",
+        right: "0px",
+        top: "0px",
+        padding: "10px",
+        zIndex: 10,
+        opacity: 0
     }
 }
