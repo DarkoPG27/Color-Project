@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { withStyles } from '@mui/styles';
 import Navbar from './Navbar';
+import ColorBox from './ColorBox';
 import PaletteFooter from './PaletteFooter';
 import styles from './styles/PaletteStyles';
-import { withStyles } from '@mui/styles';
-import ColorBox from './ColorBox';
+
 
 class SingleColorPalette extends Component {
     constructor(props) {
@@ -40,7 +41,7 @@ class SingleColorPalette extends Component {
                 background={color[format]}
                 showingFullPalette={false}
             />
-        ))
+        ));
         return (
             <div className={classes.Palette}>
                 <Navbar handleChange={this.changeFormat} showingAllColors={false} />
@@ -53,7 +54,7 @@ class SingleColorPalette extends Component {
                 </div>
                 <PaletteFooter paletteName={paletteName} emoji={emoji} />
             </div >
-        )
+        );
     }
 }
 

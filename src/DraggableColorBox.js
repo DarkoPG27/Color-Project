@@ -19,7 +19,7 @@ const DraggableColorBox = SortableElement(props => {
                     onClick={handleClick} />
             </div>
         </div>
-    )
-})
+    );
+});
 
 export default withStyles(styles)(DraggableColorBox);

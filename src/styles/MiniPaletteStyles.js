@@ -1,5 +1,3 @@
-import { padding } from "@mui/system";
-
 export default {
     root: {
         backgroundColor: "white",
