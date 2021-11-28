@@ -8,22 +8,22 @@ const styles = {
         display: "inline-block",
         position: "relative",
         cursor: "pointer",
-        marginBottom: "-4px",
+        marginBottom: "-6px",
         "&:hover svg": {
             color: "white",
             transform: "scale(1.5)"
         },
         [sizes.down("lg")]: {
             width: "25%",
-            height: "20%"
+            height: "9rem"
         },
         [sizes.down("md")]: {
             width: "50%",
-            height: "10%"
+            height: "6rem"
         },
         [sizes.down("sm")]: {
             width: "100%",
-            height: "5%"
+            height: "3rem"
         }
     },
     boxContent: {
